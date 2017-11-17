@@ -29,6 +29,8 @@ function add(a,b) {
 function makeInt(n) {
   if(parseInt(n) < 1000) {
     return parseInt(n);
+  } else {
+    return 0;
   }
 }
 
