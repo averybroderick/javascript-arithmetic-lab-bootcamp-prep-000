@@ -27,7 +27,7 @@ function add(a,b) {
 }
 
 function makeInt(n) {
-  if(parseInt(n) < 1000) {
+  if(parseInt(n) < 1000 || parseInt(n) === NaN) {
     return parseInt(n);
   } else {
     return 0;
