@@ -22,16 +22,9 @@ function dec(n) {
   return n--;
 }
 
-function add(a,b) {
-  return a + b;
-}
 
-function makeInt(n) {
-  if(parseInt(n) < 1000 || parseInt(n) === NaN) {
-    return parseInt(n);
-  } else {
-    return 0;
-  }
+function makeInt(n, 10) {
+  return parseInt(n);
 }
 
 function preserveDecimal(n) {
